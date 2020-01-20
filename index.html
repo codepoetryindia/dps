@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>DPS</title>
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+		<link rel="icon" href="favicon.ico" type="image/x-icon">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+		<link rel="stylesheet" type="text/css" href="./assets/css/media.css">
+	</head>
+	<body>
+		<header>
+			<nav class="navbar navbar-expand-lg navbar-light bg-light cp-navbar ">
+				<div class="container">
+					<a class="navbar-brand m-auto text-center" href="#"><img src="images/logo.png"></a>
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+						<ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+							 <li class="nav-item mr-2"><a class="nav-link cp-nav-link-small" href="http://dpsfulbarisiliguri.com/admission-schedule-2020-21.html" target="_blank">Admission Shedule</a></li>
+							 <li class="nav-item mr-2"><a class="nav-link cp-nav-link-small" href="http://dpsfulbarisiliguri.com/fee-structure-nursery-prep.html" target="_blank">Fee Structre Nursery Prep</a></li>
+							 <li class="nav-item mr-2"><a class="nav-link cp-nav-link-small" href="http://dpsfulbarisiliguri.com/fee-structure-class-i-to-viii.html" target="_blank">Fee Structure (i-to-viii)</a></li>
+							 <li class="nav-item mr-2"><a class="nav-link cp-nav-link-small" href="http://dpsfulbarisiliguri.com/hostel-fee-structure.html" target="_blank">Hostel Fee Structure</a></li>
+<!-- 							<li class="nav-item active cp-navbar-link">
+								<a class="nav-link" href="#">Admission 2020</a>
+							</li> -->
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<section id="main-header" class="position-relative cp-main-header d-flex justify-content-center align-items-center">
+			<div class="container">
+				<div class="row fsi-row-xs-level">
+					<div class="col-md-6" style="z-index: 5;">
+						<div class="h-100 d-flex justify-content-center align-items-lg-end align-items-xl-end align-items-center">
+							<div class="text-center title-box">
+								<h1>Admission Going on For Session 2020-2021 <br>Nursery to VIII</h1>
+								<p class="d-none d-lg-block d-xl-none">Scroll</p>
+								<span class="line-vertical d-none d-lg-block d-md-block d-xl-block"></span>
+								<div id="section05" class="demo d-none d-lg-block d-md-block d-xl-block">
+									<a href="#features"><span class="d-none d-lg-block d-md-block d-xl-block"></span></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6" style="z-index: 5;">
+						<div class="main-form">
+							<h3>Admission Form</h3>
+								<div id="loader">
+									<div class="lds-spinner"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+								</div>
+								  <div class="alert alert-success alert-dismissible cp-alert-new fade show" id="success_alert" style="display: none;">
+								    <strong>Successfully Submitted!</strong> 
+								  </div>
+								  <div class="alert alert-danger alert-dismissible cp-alert-new fade show" id="error_alert" style="display: none;">
+								    <strong>Please Try Again</strong> 
+								  </div>
+							<form action="submit_form.php" id="myform" method="post">
+								<div class="form-group">
+									<label for="email">Name:</label>
+									<input type="text" class="form-control" name="name" id="name">
+								</div>
+								<div class="form-group">
+									<label for="email">Guardian Name:</label>
+									<input type="text" class="form-control" name="guardian" id="guardian">
+								</div>
+								<div class="form-group">
+									<label for="email">Email:</label>
+									<input type="email" class="form-control" name="email" id="email">
+								</div>
+								<div class="form-group">
+									<label for="email">Mobile No:</label>
+									<input type="text" class="form-control"  name="mobile" id="mobile">
+								</div>
+								<div class="form-group">
+									<label for="email">Address:</label>
+									<input type="text" class="form-control" name="address"  id="address">
+								</div>
+								<div class="form-group">
+									<label for="email">Admission For Class</label>
+									<input type="text" class="form-control" name="class" id="class">
+								</div>
+								<div class="text-center">
+									<button type="submit" class="btn btn-danger cp-button-primary" id="submit-button">Submit</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="features">
+			<div class="container">
+				<div class="row p-80 pb-250" >
+					<div class="col-lg-12 col-offset-2 p-0" style="margin-bottom: 100px;">
+						<iframe width="100%" height="500px" src="https://www.youtube.com/embed/1cL4s8K_hL8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+
+					<div class="col-lg-4 mb-5 mb-lg-0">
+						<div class="featured-single">
+							<img src="images/books.svg">
+							<h4>
+								LEARNING
+							</h4>
+							<p>
+								Our academic program encourages our students to work on real issues and subjects in an integrated way. Our senior students do research on their CBSE Projects for all subjects with the aim to increase their understanding of their subjects.
+							</p>
+						</div>
+					</div>
+					<div class="col-lg-4 mb-5 mb-lg-0">
+						<div class="featured-single">
+							<img src="images/goal.svg">
+							<h4>
+								DISCOVERY								
+							</h4>
+							<p>
+								We help our students to always explore new things. that require moving forward to adopt the best method of teaching for our student's evolving needs.DPS constantly invests in staff training to provide the best environment for learning...
+							</p>
+						</div>
+					</div>
+					<div class="col-lg-4 ">
+						<div class="featured-single">
+							<img src="images/research.svg">
+							<h4>
+							DEVELOPMENT								
+							</h4>
+							<p>
+								Tomorrow belongs to the people who prepare it today. We as an institution believe in every individual and with the help of best faculty and experienced teachers, we help them to build self-confidence, discipline and achieve their goals.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="testmonial">
+			<div class="container">
+				<div class="row pb-250 mt-m-120 row-eq-height">
+					<div class="col-lg-6 mb-5 mb-lg-0">
+						<div class="card testimoial-single">
+							<div class="card-body">
+								<span class="testimoial-quote"><img src="images/left-quote.svg" alt="left-quote"></span>
+								<p class="card-text">My 5 star remarks for Delhi public school fulbari is because of its quality education that is being rendered by the skilled teachers in all aspects of learning.Now days modern and smart learning has become an integral part of education to cope with international students. After examing the schools infrastructure and digital facilities  along with its lush green environment ,Its impact on students psychological behaviour and performance of learning had increased.</p>
+								<div class="testimonial-detail">
+									<span class="avatar"><img src="images/testimonial1.jpg" class="img-fluid"></span>
+									<div class="mt-3">
+										<h4>Sneha Agarwal</h4>
+										<p>Mother of class (vi) student</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<div class="card testimoial-single">
+							<div class="card-body">
+								<span class="testimoial-quote"><img src="images/left-quote.svg" alt="left-quote"></span>
+								<p class="card-text">Delhi Public School is a trusted name in quality education. Learning at this School is viewed as an exclusive experience, which is not only about gaining knowledge, but also about shaping character and life skills, involving a holistic approach to developing the kind of people our children will become</p>
+								<div class="testimonial-detail">
+									<span class="avatar"><img src="images/testimonial2.jpg" class="img-fluid"></span>
+									<div class="mt-3">
+										<h4>Paromita Sengupta</h4>
+										<p>Mother of class (vii) student</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="campus-tour">
+			<div class="container cp-bg-primary">
+				<div  class="row mt-m-120 row-eq-height">
+					<div class="col-lg-6 d-flex w-100 justify-content-center align-self-center mb-4 mb-lg-0 order-2 order-md-1">
+						<div class="text-white campus-tour-body p-3 pt-5">
+							<h2>Our Facilities</h2>
+							<p>Delhi Public School, Fulbari, Siliguri is the best school in Siliguri following the CBSE currculum . Features of DPS, Fulbari are as follows:</p>
+							<ul class="list-group">
+								<li><img src="images/check.svg">Hostel Facility</li>
+								<li><img src="images/check.svg">Transportation Facility</li>
+								<li><img src="images/check.svg">Safe & Secure Environment</li>
+								<li><img src="images/check.svg">Beyond Classroom Activities</li>
+								<li><img src="images/check.svg">Counselling Facilities</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-6 p-0 order-1 order-md-2 d-none d-lg-block">
+						<!-- <iframe width="100%" height="500px" src="https://www.youtube.com/embed/1cL4s8K_hL8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+						<img src="images/kids.png" class="img-fluid">
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row p-80 sec-about row-eq-height">
+					<div class="col-lg-6 cp-pr-50 mb-5 mb-lg-0">
+						<h2 class="cp-color-primary">About <br><strong>DELHI PUBLIC SCHOOL</strong></h2>
+						<p class="cp-color-primary"><strong>FULBARI, SILIGURI</strong></p>
+						<p>The DPS Society is a non-profit, non proprietary educational body widely recognized for its progressive approach and commitment to excellence. Distinction and diversity are the twin hallmarks of their philosophy and educational leadership and scholarly achievement, its mission.
+						Thus Delhi Public School is a trusted name in quality education. Learning at this School is viewed as an exclusive experience, which is not only about gaining knowledge, but also about shaping character and life skills, involving a holistic approach to developing the kind of people our children will become.</p>
+						<p></p>
+					</div>
+					<div class="col-lg-6 bg-score d-flex justify-content-center align-items-center pr-5 ">
+						<div>
+							<h5>
+							<span class="score">Library Facility</span>
+							At DPS, Fulbari we have an excellent and well set-up, international standard library
+							</h5>
+							<h5>
+							<span class="score">Hostel Facility</span>
+							We offer Home Away From Home. Perhaps the ideal ambience and peaceful environment.
+							</h5>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="social">
+			<div class="container">
+				<div class="row">
+					<div class="col-4">
+						<div class="social-single">
+							<a href="https://www.facebook.com/DPSFulbari/" target="_blank"><img src="images/facebook.svg"></a>
+						</div>
+					</div>
+					<div class="col-4">
+						<div class="social-single">
+							<a href=""><img src="images/instagram.svg"></a>
+						</div>
+					</div>
+					<div class="col-4">
+						<div class="social-single">
+							<a href=""><img src="images/linkedin.svg"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer  id="footer">
+			<div class="container">
+				<div class="row p-60">
+					<div class="col-lg-4 mb-4 mb-lg-0">
+						<div class="footer-widget">
+							<div class="footer-logo">
+								<img src="images/logo-icon.jpeg" width="100">
+							</div>
+							<p class="footer-about">
+								The DPS Society is a non-profit, non proprietary educational body widely recognized for its progressive approach and commitment to excellence. Distinction and diversity are the twin hallmarks of their philosophy and educational leadership and scholarly achievement,
+							</p>
+						</div>
+					</div>
+					<div class="col-lg-4 mb-4 mb-lg-0">
+						<div class="footer-widget">
+							<ul class="list-group">
+								<li>Chhobavita, Canal Road, Fulbari,<br>
+									Bhaktinagar, Dist. Jalpaiguri, PIN - 734015<br>
+								West Bengal, India</li>
+								<li><a href="tel:+91 9734725745">+91 9734725745</a>, 
+									<a href="tel:+91 9734303675"></a> +91 9734303675<br>
+									(9:00 am - 4:00 pm)
+								</li>
+								<li><a href="mailto:info@dpsfulbarisiliguri.com">info@dpsfulbarisiliguri.com</a></li>
+								<li><a href="mailto:study@dpsfulbarisiliguri.com">study@dpsfulbarisiliguri.com</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-4 mb-4 mb-lg-0">
+						<div class="footer-widget text-center-lg" >
+<!-- 							<ul class="list-group">
+								<li><h4><a href="http://dpsfulbarisiliguri.com/" target="_blank">Home</a></h4></li>
+								<li><a href="http://dpsfulbarisiliguri.com/admission-schedule-2020-21.html" target="_blank">Admission Shedule</a></li>
+								<li><a href="http://dpsfulbarisiliguri.com/fee-structure-nursery-prep.html" target="_blank">Fee Structre Nursery Prep</a></li>
+								<li><a href="http://dpsfulbarisiliguri.com/fee-structure-class-i-to-viii.html" target="_blank">Fee Structure (i-to-viii)</a></li>
+								<li><a href="http://dpsfulbarisiliguri.com/hostel-fee-structure.html" target="_blank">Hostel Fee Structure</a></li>
+							</ul> -->
+							<a href="http://dpsfulbarisiliguri.com/" target="_blank" class="btn btn-success cp-button-primary rounded-0">Home <img src="images/right.svg" width="15" height="20" class="ml-2"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="text-center footer-copyright">
+				<p class="mb-0">Made by <a href="https://www.codepoetry.in">Codepoetry</a></p>
+			</div>
+		</footer>
+		<div class="footer-whatsapp opacity-0 d-lg-none d-xl-none"> <a href="https://api.whatsapp.com/send?phone=918637803504" target="_blank"> <span class="icon has-text-white"> <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="whatsapp" class="svg-inline--fa fa-whatsapp fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="2rem" height="2rem"><path fill="currentColor" d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"></path></svg> </span> </a> </div>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
+		<script type="text/javascript">
+		$(window).scroll(function(){
+		var offset = $('.cp-navbar').offset().top;
+		var top = $(document).scrollTop();
+		if(top >= 100){
+		// this is where you should fix you menu
+		$('.cp-navbar').addClass('fixed'); // if you have a css class which fix the element.
+		// $('.cp-navbar').css('position', 'fixed');
+		}else{
+		// this is where you should unfix your menu
+		$('.cp-navbar').removeClass('fixed'); // if you have a css class which fix the element.
+		// $('.cp-navbar').css('position', 'inherit');
+		}
+		if (top >= 300) {
+		$('.footer-whatsapp').removeClass('opacity-0');
+		}else{
+		$('.footer-whatsapp').addClass('opacity-0');
+		}
+		});
+		// // just for the demos, avoids form submit
+		// 	jQuery.validator.setDefaults({
+		// 	debug: true,
+		// 	success: "valid"
+		// 	});
+		$( "#myform" ).validate({
+		rules: {
+		name: {
+		required: true
+		},
+		guardian:{
+			required:true
+		},
+		email:{
+			required:true
+		},
+		mobile:{
+			required:true
+		},
+		address:{
+			required:true
+		},
+		class:{
+			required:true
+		}
+		},
+				submitHandler: function (form) {
+					$("#loader").show();
+					$("#submit-button").attr("disabled",true);
+					$.ajax({
+						type: $(form).attr('method'),
+						url: $(form).attr('action'),
+						data: $(form).serialize(),
+						dataType : 'json'
+					})
+					.done(function (response) {
+						console.log(response);
+						if (response.success == true) {
+							// alert(response.data);
+								$('#success_alert').text(response.data);
+								$('#success_alert').show();
+								$(form).find("input[type=text],input[type=email],input[type=number], textarea").val("")
+								$("#loader").hide();
+								$("#submit-button").attr("disabled",false);
+								setTimeout(function(){
+									$('#success_alert').hide();
+								},4000);
+						}
+						else {
+							// alert(response.data);
+							$('#error_alert').show();							
+							$("#loader").hide(500,ease);
+							$("#submit-button").attr("disabled",true);
+							setTimeout(function(){
+								$('#error_alert').hide();
+							},4000);
+						}
+					});
+		return false; // required to block normal submit since you used ajax
+		}
+		});
+		</script>
+		<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/5e2175c4daaca76c6fce7bf9/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+	</body>
+</html>

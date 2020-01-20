@@ -1,0 +1,58 @@
+@media only screen and (max-width: 767px) {
+	.cp-main-header:before {
+		height: 90vh;
+	}
+
+	.cp-main-header:after {
+		height: 40vh;
+		width: 100%;
+		background-position: right;
+	}
+
+	.fsi-row-xs-level {
+    	margin-top: 20vh;
+  	}
+
+  	h1 {
+    	color: #fff;
+    	font-size: 160%;
+    	text-align: center;
+    	font-weight: 400;
+	}
+
+	h3{
+		font-size: 160%;
+	}
+
+	#campus-tour:before{
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 374px) {
+	.fsi-row-xs-level {
+    	margin-top: 40vh;
+  	}
+
+  	h1{
+  		font-size: 150%;
+  		color: #156332;
+  		font-weight: 600;
+  	}
+  	.cp-navbar img {
+  		max-width: 220px;
+  	}
+}
+
+/*@media only screen and (max-width: 360px) {
+	.cp-main-header:after {
+		height: 40vh;
+		width: 100%;
+		background-position: right;
+	}
+
+	.fsi-row-xs-level {
+    	margin-top: 45vh;
+  	}
+}
+*/
